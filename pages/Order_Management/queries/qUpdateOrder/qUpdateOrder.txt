@@ -1,0 +1,10 @@
+UPDATE orders
+SET 
+  product_name  = '{{inp_edit_product_name.text.trim()}}',
+  quantity      =  {{Number(inp_edit_quantity.text)}},
+  input_line    =  {{Number(inp_edit_input_line.text)}},
+  output_line   =  {{Number(inp_edit_output_line.text)}},
+  shipment_ref  = '{{inp_edit_shipment_ref.text.trim()}}',
+  status        = '{{sel_edit_status.selectedOptionValue}}',
+  updated_at    = NOW()
+WHERE id = {{tbl_orders.selectedRow.id}};

@@ -1,0 +1,14 @@
+INSERT INTO orders 
+  (barcode, product_code, product_name, quantity, 
+   input_line, output_line, shipment_ref, status)
+VALUES
+  (
+    TRIM({{inp_barcode.text}}),
+    TRIM({{inp_product_code.text}}),
+    TRIM({{inp_product_name.text}}),
+    {{inp_quantity.text}}::INTEGER,
+    {{inp_input_line.text}}::SMALLINT,
+    {{inp_output_line.text}}::SMALLINT,
+    TRIM({{inp_shipment_ref.text}}),
+    'pending'
+  );

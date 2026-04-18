@@ -1,0 +1,69 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 57,
+  "boxShadow": "none",
+  "defaultOptionValue": "{{ ((options, serverSideFiltering) => ( tbl_orders.selectedRow.status))(sel_edit_status.options, sel_edit_status.serverSideFiltering) }}",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "defaultOptionValue"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "yx8yxfawit",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "edit_status",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 1,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 57,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 21,
+  "mobileTopRow": 50,
+  "needsErrorInfo": false,
+  "onOptionChange": "",
+  "optionLabel": "label",
+  "optionValue": "value",
+  "originalBottomRow": 58,
+  "originalTopRow": 51,
+  "parentColumnSpace": 6.9375,
+  "parentId": "ef1v33dxec",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 21,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\"label\": \"Pending\", \"value\": \"pending\"},\n  {\"label\": \"Labeled\", \"value\": \"labeled\"},\n  {\"label\": \"In Transit\", \"value\": \"in_transit\"},\n  {\"label\": \"Sorted\", \"value\": \"sorted\"},\n  {\"label\": \"Error\", \"value\": \"error\"}\n]",
+  "topRow": 50,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "cpuca65e93",
+  "widgetName": "sel_edit_status"
+}

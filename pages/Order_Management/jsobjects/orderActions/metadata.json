@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "69ddfa0ba9575961b7639291_7ff92c44-791b-4238-9a14-a593226b3f4b",
+  "id": "Order_Management_orderActions",
+  "unpublishedCollection": {
+    "name": "orderActions",
+    "pageId": "Order_Management",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

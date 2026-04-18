@@ -1,0 +1,2 @@
+DELETE FROM orders
+WHERE id = {{tbl_orders.selectedRow.id}};
