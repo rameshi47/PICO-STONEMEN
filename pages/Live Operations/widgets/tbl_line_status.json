@@ -74,6 +74,9 @@
     },
     {
       "key": "primaryColumns.status.cellBackground"
+    },
+    {
+      "key": "primaryColumns.status.textColor"
     }
   ],
   "dynamicPropertyPathList": [
@@ -82,6 +85,9 @@
     },
     {
       "key": "primaryColumns.status.cellBackground"
+    },
+    {
+      "key": "primaryColumns.status.textColor"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -207,7 +213,7 @@
       "notation": "standard",
       "originalId": "status",
       "sticky": "",
-      "textColor": "",
+      "textColor": "{{(() => { const tableData = tbl_line_status.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ('#ffffff')) : '#ffffff' })()}}",
       "textSize": "0.875rem",
       "thousandSeparator": true,
       "validation": {},
