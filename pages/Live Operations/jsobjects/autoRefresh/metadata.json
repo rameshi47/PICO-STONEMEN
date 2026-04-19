@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "69e38ca45c8ee0025811935c_79014f7d-97e7-4dc3-9d8c-8053a4f9e8fc",
+  "id": "Live Operations_autoRefresh",
+  "unpublishedCollection": {
+    "name": "autoRefresh",
+    "pageId": "Live Operations",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

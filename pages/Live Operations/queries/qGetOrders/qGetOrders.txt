@@ -1,0 +1,3 @@
+SELECT id, barcode, product_code, product_name, quantity, input_line, output_line, shipment_ref, status, created_at
+FROM orders
+ORDER BY created_at DESC
