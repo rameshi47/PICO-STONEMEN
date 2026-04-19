@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  line_id,\n  status,\n  box_count,\n  updated_at\nFROM line_status\nWHERE line_type = 'output'\nORDER BY line_id;",
+      "body": "SELECT\n  line_id,\n  status,\n  box_count,\n  updated_at\nFROM line_status\nORDER BY line_id;",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -26,6 +26,6 @@
     "name": "qLineStatus",
     "pageId": "Live Operations",
     "runBehaviour": "MANUAL",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
