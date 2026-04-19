@@ -1,0 +1,7 @@
+SELECT
+  COUNT(*)                                          AS total_today,
+  COUNT(*) FILTER (WHERE result = 'success')        AS sorted_today,
+  COUNT(*) FILTER (WHERE result != 'success')       AS errors_today,
+  COALESCE(ROUND(AVG(duration_ms)), 0)              AS avg_latency_ms
+FROM sort_events
+WHERE scanned_at >= CURRENT_DATE;

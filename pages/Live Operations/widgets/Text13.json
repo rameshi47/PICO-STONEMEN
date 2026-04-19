@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 10,
+  "bottomRow": 8,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -11,9 +11,6 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
@@ -23,33 +20,31 @@
   "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
-  "key": "hsndg5eh1a",
+  "key": "koppfne1p6",
   "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 10,
+  "mobileBottomRow": 8,
   "mobileLeftColumn": 1,
   "mobileRightColumn": 17,
-  "mobileTopRow": 6,
+  "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "originalBottomRow": 11,
-  "originalTopRow": 6,
   "overflow": "NONE",
-  "parentColumnSpace": 6.9375,
-  "parentId": "ef1v33dxec",
+  "parentColumnSpace": 19.6875,
+  "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 17,
   "shouldTruncate": false,
-  "text": "{{\"Barcode: \" + tbl_orders.selectedRow.barcode}}",
+  "text": "LIVE OPERATIONS",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 6,
+  "topRow": 4,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "577hi6j92u",
-  "widgetName": "txt_barcode"
+  "widgetId": "lsoi41igss",
+  "widgetName": "Text13"
 }

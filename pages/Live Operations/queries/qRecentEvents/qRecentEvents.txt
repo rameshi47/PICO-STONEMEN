@@ -1,0 +1,9 @@
+SELECT
+  se.barcode,
+  se.actual_line,
+  se.result,
+  se.duration_ms,
+  se.scanned_at
+FROM sort_events se
+ORDER BY se.scanned_at DESC
+LIMIT 50;

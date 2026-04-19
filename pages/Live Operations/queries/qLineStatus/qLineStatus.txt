@@ -1,0 +1,8 @@
+SELECT
+  line_id,
+  status,
+  box_count,
+  updated_at
+FROM line_status
+WHERE line_type = 'output'
+ORDER BY line_id;

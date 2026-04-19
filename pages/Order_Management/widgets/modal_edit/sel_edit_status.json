@@ -58,7 +58,7 @@
   "placeholderText": "Select option",
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 21,
+  "rightColumn": 64,
   "serverSideFiltering": false,
   "sourceData": "[\n  {\"label\": \"Pending\", \"value\": \"pending\"},\n  {\"label\": \"Labeled\", \"value\": \"labeled\"},\n  {\"label\": \"In Transit\", \"value\": \"in_transit\"},\n  {\"label\": \"Sorted\", \"value\": \"sorted\"},\n  {\"label\": \"Error\", \"value\": \"error\"}\n]",
   "topRow": 50,
